@@ -56,19 +56,19 @@ python cnn_from_scratch.py
 
 # Sample Output
 
-text
+training for 10000 datasets
 Training Started...
 
 Epoch: 1
-Loss: 1.1913
+Loss: 4.9107
 
 Epoch: 2
-Loss: 0.6903
+Loss: 4.4458
 
 Epoch: 3
-Loss: 0.5411
+Loss: 4.1575
 
-Final Accuracy:  75.50%
+Final Accuracy:  81.60%
 
 #  Conclusion
 
