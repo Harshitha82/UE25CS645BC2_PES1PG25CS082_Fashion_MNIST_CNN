@@ -19,25 +19,14 @@ Project Objective
 
 The objective of this project is to understand the internal working of Convolutional Neural Networks by manually implementing the major components of CNN architecture.
 
-Instead of relying on high-level APIs, this project focuses on:
 
-* Understanding convolution operations
-* Learning how feature extraction works
-* Implementing gradient updates manually
-* Understanding forward and backward propagation
-
-Dataset
-
-Dataset Used: Fashion MNIST
-
+##Dataset Used: Fashion MNIST
 Fashion MNIST contains:
-
 * 70,000 grayscale images
 * 10 clothing categories
 * Image size: 28 × 28 pixels
 
 Classes include:
-
 * T-shirt/top
 * Trouser
 * Pullover
@@ -93,6 +82,6 @@ This implementation is simplified for educational purposes:
 * Slower than framework-based CNNs
 
 
-# ⭐ Conclusion
+#  Conclusion
 
 This project demonstrates how a CNN can be built from basic principles using only NumPy. It provides a deeper understanding of how modern deep learning models process images and learn patterns through convolution and backpropagation.
