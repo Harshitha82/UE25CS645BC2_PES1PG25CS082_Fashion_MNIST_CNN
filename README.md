@@ -1,5 +1,4 @@
 CNN 
-Fashion MNIST
 
 A Convolutional Neural Network (CNN) implemented completely from scratch using Python and NumPy without using deep learning frameworks like TensorFlow or PyTorch for model building.
 
@@ -15,12 +14,12 @@ This project demonstrates the fundamental working of CNNs including:
 
 The model is trained on the Fashion MNIST dataset for image classification.
 
-Project Objective
+# Project Objective
 
 The objective of this project is to understand the internal working of Convolutional Neural Networks by manually implementing the major components of CNN architecture.
 
 
-##Dataset Used: Fashion MNIST
+## Dataset Used: Fashion MNIST
 Fashion MNIST contains:
 * 70,000 grayscale images
 * 10 clothing categories
@@ -38,16 +37,16 @@ Classes include:
 * Bag
 * Ankle boot
 
-Technologies Used
+# Technologies Used
 * Python
 * NumPy
 * TensorFlow/Keras (only for dataset loading)
 
-Model Accuracy
+# Model Accuracy
 The CNN model achieved approximately:
  75.50% Accuracy on the Fashion MNIST test dataset.
 
-How to Run
+# How to Run
 
 1. Install Dependencies
 pip install numpy tensorflow
@@ -55,7 +54,7 @@ pip install numpy tensorflow
 2. Run the Program
 python cnn_from_scratch.py
 
-Sample Output
+# Sample Output
 
 text
 Training Started...
@@ -70,16 +69,6 @@ Epoch: 3
 Loss: 0.5411
 
 Final Accuracy:  75.50%
-
-Limitations
-
-This implementation is simplified for educational purposes:
-
-* MaxPool backward propagation not implemented
-* No ReLU activation
-* No batch optimization
-* Slower than framework-based CNNs
-
 
 #  Conclusion
 
