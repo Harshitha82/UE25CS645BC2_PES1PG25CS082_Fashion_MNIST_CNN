@@ -43,22 +43,21 @@ Technologies Used
 * NumPy
 * TensorFlow/Keras (only for dataset loading)
 
-# Model Accuracy
+Model Accuracy
 The CNN model achieved approximately:
  75.50% Accuracy on the Fashion MNIST test dataset.
 
+How to Run
 
-# How to Run
-
-## 1. Install Dependencies
+1. Install Dependencies
 pip install numpy tensorflow
 
-## 2. Run the Program
+2. Run the Program
 python cnn_from_scratch.py
 
-# Sample Output
+Sample Output
 
-```text
+text
 Training Started...
 
 Epoch: 1
@@ -72,7 +71,7 @@ Loss: 0.5411
 
 Final Accuracy:  75.50%
 
-## Limitations
+Limitations
 
 This implementation is simplified for educational purposes:
 
